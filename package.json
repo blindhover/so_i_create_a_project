@@ -19,8 +19,8 @@
     "type": "git",
     "url": "git+https://github.com/blindhover/so_i_create_a_project.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["project"],
+  "author": "hover",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/blindhover/so_i_create_a_project/issues"
