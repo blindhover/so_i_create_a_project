@@ -1,6 +1,6 @@
 {
   "name": "so_i_create_a_project",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice greeter",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -13,13 +13,15 @@
     "prepublishOnly": "npm run test && npm run lint",
     "preversion": "npm run lint",
     "version": "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/blindhover/so_i_create_a_project.git"
   },
-  "keywords": ["project"],
+  "keywords": [
+    "project"
+  ],
   "author": "hover",
   "license": "ISC",
   "bugs": {
